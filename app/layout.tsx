@@ -31,6 +31,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
       <Link href={"/"}>Home</Link>
       <Link href={"/about"}>About</Link>
+      <Link href={"/contact"}>Contact</Link>
         {children}
         </body>
     </html>
