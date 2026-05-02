@@ -5,7 +5,6 @@ export default async function About () {
     
     const response = await fetch("https://jsonplaceholder.typicode.com");
     const posts = response.json();
-    console.log(posts);
 
     return (
         <ButtonComponent />
